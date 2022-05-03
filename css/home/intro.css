@@ -5,14 +5,7 @@
 }
 
 .intro {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-
-  box-sizing: border-box;
   justify-content: center;
-  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
