@@ -9,14 +9,12 @@
   justify-content: space-between;
 
   align-items: center;
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 1.2rem;
 }
 .header-menu a {
   padding: 12px 0px;
   display: inline-block;
   position: relative;
+  color: var(--white);
 }
 .header-menu a:after {
   content: "";
@@ -36,7 +34,6 @@
 }
 
 .link {
-  color: var(--white);
 }
 .header-menu {
   flex-wrap: wrap;

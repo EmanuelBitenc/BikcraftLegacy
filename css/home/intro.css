@@ -17,9 +17,6 @@
 }
 
 .main-titulo {
-  font-family: var(--poppins);
-  font-weight: 600;
-  font-size: 3.5rem;
   max-width: 500px;
 }
 
@@ -53,7 +50,7 @@
     max-width: 450px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .main-texto {
     gap: 20px;
     padding-bottom: 40px;
@@ -64,7 +61,6 @@
     grid-template-columns: 1fr;
   }
   .main-titulo {
-    font-size: 2rem;
     max-width: initial;
   }
   .main-paragrafo {
