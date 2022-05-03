@@ -32,9 +32,6 @@
 .header-menu a:hover:after {
   width: 100%;
 }
-
-.link {
-}
 .header-menu {
   flex-wrap: wrap;
   display: flex;
@@ -58,15 +55,16 @@
     background-color: #202020;
   }
 }
-
-@media (max-width: 500px) {
+@media (max-width: 610px) {
   .header {
+    padding-top: 20px;
+    justify-content: center;
     flex-direction: column;
     font-size: 1rem;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 470px) {
   .header-menu {
     gap: 5px;
   }
