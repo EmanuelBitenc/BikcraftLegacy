@@ -26,24 +26,29 @@
   display: block;
 }
 
-.bicicleta-lista .pacote-lista .bicicleta-nome {
-  position: relative;
+.pacote-lista .bicicleta-nome {
+  display: flex;
   color: var(--cor-11);
+  align-items: center;
 }
 
-.bicicleta-lista .pacote-lista .bicicleta-nome::before {
+.pacote-lista .bicicleta-nome::before {
   content: "";
   display: inline-block;
   height: 8px;
   width: 12px;
   background-color: var(--cor-p1);
-  position: absolute;
-  top: 10px;
-  left: 1px;
-}
+  margin-right: 8px;
 
-.bicicleta-lista .pacote-lista .preco,
-.bicicleta-lista .pacote-lista .bicicleta-nome {
+  transition: width 0.2s;
+}
+.pacotes-lista a:hover .bicicleta-nome::before {
+  width: 24px;
+}
+.pacote-lista .bicicleta-nome {
+  padding-top: 5px;
+}
+.pacote-lista .preco {
   padding-left: 20px;
 }
 
