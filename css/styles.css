@@ -8,6 +8,7 @@
 @import "home/intro.css";
 @import "home/bicicleta_lista.css";
 @import "home/tecnologia.css";
+@import "home/parceiros.css";
 
 body {
   height: 5000px;
