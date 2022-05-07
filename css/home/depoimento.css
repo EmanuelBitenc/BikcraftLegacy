@@ -1,0 +1,45 @@
+.depoimento {
+  background-color: var(--cor-p1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: end;
+}
+
+.depoimento-text {
+  padding-bottom: 80px;
+}
+.depoimento-text p {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-size: 2.2rem;
+  margin-bottom: 60px;
+
+  max-width: 520px;
+
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  left: -25px;
+}
+.depoimento-text .aspas {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-size: 2.5rem;
+}
+
+.depoimento-text p::after {
+  content: "";
+  display: block;
+  background-image: "./img/";
+}
+
+.depoimento-text span {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.depoimento-img img {
+  border-radius: 0px;
+}

@@ -9,6 +9,7 @@
 @import "home/bicicleta_lista.css";
 @import "home/tecnologia.css";
 @import "home/parceiros.css";
+@import "home/depoimento.css";
 
 body {
   height: 5000px;
