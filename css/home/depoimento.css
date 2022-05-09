@@ -92,8 +92,13 @@
   }
 }
 @media (max-width: 500px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+
   .depoimento-img img {
-    height: 100%;
+    width: 100%;
+    max-height: 200px;
     object-fit: cover;
   }
 }
