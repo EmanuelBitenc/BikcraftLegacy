@@ -10,7 +10,4 @@
 @import "home/tecnologia.css";
 @import "home/parceiros.css";
 @import "home/depoimento.css";
-
-body {
-  height: 5000px;
-}
+@import "home/seguros.css";

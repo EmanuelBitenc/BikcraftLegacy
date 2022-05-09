@@ -46,6 +46,34 @@
 .botao:hover {
   background: var(--gradientehover);
 }
+.botao-venda-cor {
+  background: var(--cor-10);
+  color: var(--cor-4);
+}
+.botao-venda-corp1 {
+  background: var(--gradiente);
+  color: var(--cor-p5);
+}
+
+.botao-venda {
+  display: inline-block;
+  width: max-content;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 12px 26px;
+
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+}
+.botao-venda-cor:hover {
+  background: var(--cor-11);
+}
+.botao-venda-corp1:hover {
+  background: var(--gradientehover);
+}
 
 @media (max-width: 900px) {
   .botao {
