@@ -5,6 +5,7 @@
 @import "utilidades/tipografia.css";
 
 @import "global/header.css";
+@import "global/footer.css";
 @import "home/intro.css";
 @import "home/bicicleta_lista.css";
 @import "home/tecnologia.css";
