@@ -1,77 +1,79 @@
 .tecnologia-bg {
   background-color: var(--cor-11);
-  box-shadow: inset 0 80px white, inset 0 -80px white;
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
 }
 
 .tecnologia {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items: center;
 }
 
-.text-container {
-  align-self: center;
-  padding-top: 160px;
-  padding-bottom: 160px;
-}
-.text-container a {
-  padding-bottom: 40px;
-  display: inline-block;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.tec-titulo {
-  padding-bottom: 20px;
-}
-
-.tec-paragrafo {
-  padding-bottom: 20px;
-}
-
-.tec-detalhes {
-  display: flex;
-  flex: 1;
-  gap: 40px;
-}
-.tec-detalhe h3 {
-  width: max-content;
-  margin-bottom: 5px;
-}
-.tec-detalhe .icon {
-  width: 24px;
-}
-
-.img-tec,
-.img-tec img {
+.tecnologia-imagem img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: left;
 }
 
-@media (max-width: 980px) {
+.tecnologia-conteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.tecnologia-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tecnologia-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.tecnologia-conteudo > p {
+  margin-bottom: 20px;
+}
+
+.tecnologia a {
+  margin-bottom: 80px;
+}
+
+.tecnologia-vantagens {
+  display: flex;
+  gap: 40px;
+}
+
+.tecnologia-vantagens h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+
+.tecnologia-vantagens img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
   .tecnologia-bg {
     box-shadow: initial;
   }
   .tecnologia {
     grid-template-columns: 1fr;
   }
-  .text-container {
-    padding-bottom: 80px;
-    padding-top: 80px;
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
-  .tec {
-    margin-bottom: 10px;
-  }
-
-  .img-tec {
+  .tecnologia-imagem {
     display: none;
   }
+  .tecnologia a {
+    margin-bottom: 60px;
+  }
 }
-@media (max-width: 980px) {
-  .tec-detalhes {
+
+@media (max-width: 600px) {
+  .tecnologia-vantagens {
     flex-direction: column;
   }
 }

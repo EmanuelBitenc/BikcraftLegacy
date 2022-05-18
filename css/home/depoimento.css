@@ -5,6 +5,12 @@
   gap: 40px;
   align-items: end;
 }
+.depoimento-text {
+  padding: 40px 40px 80px 80px;
+  align-self: end;
+  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px
+    right 40px;
+}
 
 .depoimento-text {
   padding: 20px 20px 80px 20px;
