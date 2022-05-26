@@ -13,7 +13,29 @@ function linkAtivo(link) {
 const parametros = new URLSearchParams(location.search);
 function ativarProduto(parametro) {
   const elemento = document.getElementById(parametro);
-  elemento.checked = true;
-  console.log(elemento);
+  if (elemento) {
+    elemento.checked = true;
+  }
 }
 parametros.forEach(ativarProduto);
+
+//Perguntas frequentes
+
+const perguntas = document.querySelectorAll(".perguntas button");
+console.log(perguntas);
+
+function eventoPerguntas(pergunta) {
+  pergunta.addEventListener("click", abrirPergunta);
+}
+
+function abrirPergunta(event) {
+  const pergunta = event.currentTarget;
+  const controls = pergunta.getAttribute("aria-controls");
+  const resposta = document.getElementById(controls);
+
+  resposta.classList.toggle("ativa");
+  const ativa = resposta.classList.contains("ativa");
+  pergunta.setAttribute("aria-expanded", ativa);
+}
+
+perguntas.forEach(eventoPerguntas);
