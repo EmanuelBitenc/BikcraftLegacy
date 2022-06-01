@@ -10,6 +10,7 @@ A página Bikcraft é um projeto simples voltado para ser uma loja de bicicletas
 - Navegações para outras páginas com caminhos específicos de cada ação.
 - `CSS3` Responsivo e otimizado;
 - Acessibilidade;
+- Uso do plugin `Simple Anime` para animações da pagina;
 - Versionamento com Git e Github;
 
 Link para a página em funcionamento:
