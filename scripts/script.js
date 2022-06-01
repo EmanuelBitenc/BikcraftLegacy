@@ -22,7 +22,6 @@ parametros.forEach(ativarProduto);
 //Perguntas frequentes
 
 const perguntas = document.querySelectorAll(".perguntas button");
-console.log(perguntas);
 
 function eventoPerguntas(pergunta) {
   pergunta.addEventListener("click", abrirPergunta);
@@ -59,3 +58,7 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
