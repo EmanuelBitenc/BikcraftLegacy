@@ -15,7 +15,7 @@ A página Bikcraft é um projeto simples voltado para ser uma loja de bicicletas
 
 Link para a página em funcionamento:
 
-> https://emanuelbitenc.github.io/bikcraft/
+> [https://emanuelbitenc.github.io/BikcraftLegacy/](https://emanuelbitenc.github.io/BikcraftLegacy/)
 
 ## Arquitetura
 
